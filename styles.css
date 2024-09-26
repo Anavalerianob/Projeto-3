@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5; /* Fundo suave roxo claro */
+    color: #333;
+}
+
+header {
+    background-color: #7b1fa2; /* Roxo escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin: 40px 20px;
+}
+
+h1, h2 {
+    color: #6a1b9a; /* Roxo mais forte */
+}
+
+footer {
+    background-color: #7b1fa2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 2px solid #6a1b9a;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4a148c; /* Mais escuro ao passar o mouse */
+}
+
+footer p {
+    margin: 0;
+}
+
+.linha-produtos ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.linha-produtos li {
+    background-color: #ba68c8; /* Roxo claro */
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.linha-produtos li img {
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.linha-produtos li p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+.linha-produtos li:hover {
+    background-color: #ab47bc; /* Efeito ao passar o mouse */
+    color: white;
+}
